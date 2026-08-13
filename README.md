@@ -170,9 +170,9 @@ Pass `{ symbol: 'USD' }` instead of `source`/`target` to get the raw published r
 
 ## 🗺️ Currencies covered
 
-Central Bank of Uzbekistan currently publishes rates covering **75 currencies** (as of the latest table):
+Central Bank of Uzbekistan currently publishes rates covering **75 currencies** against the UZS (as of the latest table):
 
-`AED` · `AFN` · `AMD` · `ARS` · `AUD` · `AZN` · `BDT` · `BGN` · `BHD` · `BND` · `BRL` · `BYN` · `CAD` · `CHF` · `CNY` · `CUP` · `CZK` · `DKK` · `DZD` · `EGP` · `EUR` · `GBP` · `GEL` · `HKD` · `HUF` · `IDR` · `ILS` · `INR` · `IQD` · `IRR` · `ISK` · `JOD` · `JPY` · `KGS` · `KHR` · `KRW` · `KWD` · `KZT` · `LAK` · `LBP` · `LYD` · `MAD` · `MDL` · `MMK` · `MNT` · `MXN` · `MYR` · `NOK` · `NZD` · `OMR` · `PHP` · `PKR` · `PLN` · `QAR` · `RON` · `RSD` · `RUB` · `SAR` · `SDG` · `SEK` · `SGD` · `SYP` · `THB` · `TJS` · `TMT` · `TND` · `TRY` · `UAH` · `USD` · `UYU` · `VES` · `VND` · `XDR` · `YER` · `ZAR`
+🇦🇪 `AED` · 🇦🇫 `AFN` · 🇦🇲 `AMD` · 🇦🇷 `ARS` · 🇦🇺 `AUD` · 🇦🇿 `AZN` · 🇧🇩 `BDT` · 🇧🇬 `BGN` · 🇧🇭 `BHD` · 🇧🇳 `BND` · 🇧🇷 `BRL` · 🇧🇾 `BYN` · 🇨🇦 `CAD` · 🇨🇭 `CHF` · 🇨🇳 `CNY` · 🇨🇺 `CUP` · 🇨🇿 `CZK` · 🇩🇰 `DKK` · 🇩🇿 `DZD` · 🇪🇬 `EGP` · 🇪🇺 `EUR` · 🇬🇧 `GBP` · 🇬🇪 `GEL` · 🇭🇰 `HKD` · 🇭🇺 `HUF` · 🇮🇩 `IDR` · 🇮🇱 `ILS` · 🇮🇳 `INR` · 🇮🇶 `IQD` · 🇮🇷 `IRR` · 🇮🇸 `ISK` · 🇯🇴 `JOD` · 🇯🇵 `JPY` · 🇰🇬 `KGS` · 🇰🇭 `KHR` · 🇰🇷 `KRW` · 🇰🇼 `KWD` · 🇰🇿 `KZT` · 🇱🇦 `LAK` · 🇱🇧 `LBP` · 🇱🇾 `LYD` · 🇲🇦 `MAD` · 🇲🇩 `MDL` · 🇲🇲 `MMK` · 🇲🇳 `MNT` · 🇲🇽 `MXN` · 🇲🇾 `MYR` · 🇳🇴 `NOK` · 🇳🇿 `NZD` · 🇴🇲 `OMR` · 🇵🇭 `PHP` · 🇵🇰 `PKR` · 🇵🇱 `PLN` · 🇶🇦 `QAR` · 🇷🇴 `RON` · 🇷🇸 `RSD` · 🇷🇺 `RUB` · 🇸🇦 `SAR` · 🇸🇩 `SDG` · 🇸🇪 `SEK` · 🇸🇬 `SGD` · 🇸🇾 `SYP` · 🇹🇭 `THB` · 🇹🇯 `TJS` · 🇹🇲 `TMT` · 🇹🇳 `TND` · 🇹🇷 `TRY` · 🇺🇦 `UAH` · 🇺🇸 `USD` · 🇺🇾 `UYU` · 🇻🇪 `VES` · 🇻🇳 `VND` · `XDR` · 🇾🇪 `YER` · 🇿🇦 `ZAR`
 
 ## ⚖️ Published vs derived rates
 
