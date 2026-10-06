@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'UZS', { apiKey: 'art_live_...' });
 {
   bank: 'cbu',
   name: 'Central Bank of Uzbekistan',
-  rate_date: '2026-09-25',   // Central Bank of Uzbekistan's own publication date
+  rate_date: '2026-10-03',   // Central Bank of Uzbekistan's own publication date
   source: 'USD',
   target: 'UZS',
-  rate: 11830.87,
+  rate: 11772.95,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbu',
   name: 'Central Bank of Uzbekistan',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-03',
   rates: [
-    { "base": "USD", "quote": "UZS", "type": "reference", "value": 11830.87 },
+    { "base": "USD", "quote": "UZS", "type": "reference", "value": 11772.95 },
     // … the rest of the published table (75 currencies vs UZS)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'cbu-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'UZS', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'UZS', from: '2026-01-01', to: '2026-10-03' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'UZS',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-03',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 11830.87, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-03', rate: 11772.95, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
