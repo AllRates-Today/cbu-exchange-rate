@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/cbu-exchange-rate.svg)](https://github.com/AllRates-Today/cbu-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/cbu-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/UZS today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbu%3Fsource%3DUSD%26target%3DUZS&query=%24.rate&label=USD%2FUZS%20published%20by%20Central%20Bank%20of%20Uzbekistan&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbu/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbu%3Fsource%3DUSD%26target%3DUZS&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbu/)
 
 **Official Central Bank of Uzbekistan (Uzbekistan) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Uzbekistan itself prints, every business day.**
 
@@ -32,6 +34,79 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Uzbekistan table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-09** by Central Bank of Uzbekistan — 73 rates, first 60 shown. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | UZS | reference | 3225.22 |
+| AFN | UZS | reference | 182.65 |
+| AMD | UZS | reference | 32.73 |
+| ARS | UZS | reference | 7.81 |
+| AUD | UZS | reference | 8217.97 |
+| AZN | UZS | reference | 6968.57 |
+| BDT | UZS | reference | 96.08 |
+| BHD | UZS | reference | 31406.6 |
+| BND | UZS | reference | 9237.81 |
+| BRL | UZS | reference | 2359.17 |
+| BYN | UZS | reference | 3876.37 |
+| CAD | UZS | reference | 8299.99 |
+| CHF | UZS | reference | 14209.63 |
+| CNY | UZS | reference | 1767.54 |
+| CUP | UZS | reference | 493.61 |
+| CZK | UZS | reference | 542.5 |
+| DKK | UZS | reference | 1771.69 |
+| DZD | UZS | reference | 88.03 |
+| EGP | UZS | reference | 226.08 |
+| EUR | UZS | reference | 13240.91 |
+| GBP | UZS | reference | 15631.55 |
+| GEL | UZS | reference | 4565.15 |
+| HKD | UZS | reference | 1509.54 |
+| HUF | UZS | reference | 36.15 |
+| IDR | UZS | reference | 0.662 |
+| ILS | UZS | reference | 3848.04 |
+| INR | UZS | reference | 122.4 |
+| IRR | UZS | reference | 0.007 |
+| ISK | UZS | reference | 96.65 |
+| JOD | UZS | reference | 16708.84 |
+| JPY | UZS | reference | 74.85 |
+| KGS | UZS | reference | 135.42 |
+| KHR | UZS | reference | 2.91 |
+| KRW | UZS | reference | 8.82 |
+| KWD | UZS | reference | 38437.93 |
+| KZT | UZS | reference | 26.27 |
+| LAK | UZS | reference | 0.53 |
+| LBP | UZS | reference | 0.13 |
+| LYD | UZS | reference | 1842.73 |
+| MAD | UZS | reference | 1189.53 |
+| MDL | UZS | reference | 662.37 |
+| MMK | UZS | reference | 5.64 |
+| MNT | UZS | reference | 3.29 |
+| MXN | UZS | reference | 657.31 |
+| MYR | UZS | reference | 2895.41 |
+| NOK | UZS | reference | 1235.28 |
+| NZD | UZS | reference | 6616.31 |
+| OMR | UZS | reference | 30770.31 |
+| PHP | UZS | reference | 188.05 |
+| PKR | UZS | reference | 42.78 |
+| PLN | UZS | reference | 3025.87 |
+| QAR | UZS | reference | 3249.91 |
+| RON | UZS | reference | 2477.79 |
+| RSD | UZS | reference | 112.81 |
+| RUB | UZS | reference | 138.95 |
+| SAR | UZS | reference | 3155.38 |
+| SDG | UZS | reference | 19.74 |
+| SEK | UZS | reference | 1183 |
+| SGD | UZS | reference | 9237.81 |
+| SYP | UZS | reference | 97.09 |
+
+[Full table on the Central Bank of Uzbekistan rates page](https://allratestoday.com/central-bank-rates-api/cbu/) · Source: [Official rates published by CBU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbu/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
