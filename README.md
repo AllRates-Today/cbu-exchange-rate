@@ -33,79 +33,82 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/cbu').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Central Bank of Uzbekistan table](https://allratestoday.com/api/open/central-bank/cbu/table.svg)](https://allratestoday.com/central-bank-rates-api/cbu/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Central Bank of Uzbekistan — 74 rates, first 60 shown. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-17 by Central Bank of Uzbekistan — 74 rates, first 60 shown. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | UZS | reference | 3270.17 |
-| AFN | UZS | reference | 184.97 |
-| AMD | UZS | reference | 33.25 |
-| ARS | UZS | reference | 7.94 |
-| AUD | UZS | reference | 8301.25 |
-| AZN | UZS | reference | 7065.68 |
-| BDT | UZS | reference | 97.66 |
-| BHD | UZS | reference | 31802.09 |
-| BND | UZS | reference | 9362.89 |
-| BRL | UZS | reference | 2379.2 |
-| BYN | UZS | reference | 3983.3 |
-| CAD | UZS | reference | 8455.34 |
-| CHF | UZS | reference | 14466.64 |
-| CNY | UZS | reference | 1795.17 |
-| CUP | UZS | reference | 500.49 |
-| CZK | UZS | reference | 552.87 |
-| DKK | UZS | reference | 1800.9 |
-| DZD | UZS | reference | 89.21 |
-| EGP | UZS | reference | 224.64 |
-| EUR | UZS | reference | 13462.66 |
-| GBP | UZS | reference | 15911.83 |
-| GEL | UZS | reference | 4635.91 |
-| HKD | UZS | reference | 1530.65 |
-| HUF | UZS | reference | 37.02 |
+| AED | UZS | reference | 3282.57 |
+| AFN | UZS | reference | 185.68 |
+| AMD | UZS | reference | 33.35 |
+| ARS | UZS | reference | 7.97 |
+| AUD | UZS | reference | 8388.5 |
+| AZN | UZS | reference | 7091.71 |
+| BDT | UZS | reference | 98.02 |
+| BHD | UZS | reference | 31927.7 |
+| BND | UZS | reference | 9423.83 |
+| BRL | UZS | reference | 2365.62 |
+| BYN | UZS | reference | 4000.76 |
+| CAD | UZS | reference | 8519.47 |
+| CHF | UZS | reference | 14646.94 |
+| CNY | UZS | reference | 1803.07 |
+| CUP | UZS | reference | 502.33 |
+| CZK | UZS | reference | 557.91 |
+| DKK | UZS | reference | 1815.67 |
+| DZD | UZS | reference | 89.65 |
+| EGP | UZS | reference | 225.55 |
+| EUR | UZS | reference | 13572.53 |
+| GBP | UZS | reference | 16078.95 |
+| GEL | UZS | reference | 4652.99 |
+| HKD | UZS | reference | 1536.1 |
+| HUF | UZS | reference | 37.39 |
 | IDR | UZS | reference | 0.67 |
-| ILS | UZS | reference | 3872.98 |
-| INR | UZS | reference | 126.36 |
-| IQD | UZS | reference | 7.93 |
+| ILS | UZS | reference | 3895.79 |
+| INR | UZS | reference | 126.95 |
+| IQD | UZS | reference | 7.95 |
 | IRR | UZS | reference | 0.007 |
-| ISK | UZS | reference | 98.69 |
-| JOD | UZS | reference | 16941.68 |
-| JPY | UZS | reference | 76.05 |
-| KGS | UZS | reference | 137.31 |
-| KHR | UZS | reference | 2.96 |
-| KRW | UZS | reference | 8.93 |
-| KWD | UZS | reference | 38973.56 |
-| KZT | UZS | reference | 26.51 |
-| LAK | UZS | reference | 0.53 |
+| ISK | UZS | reference | 99.64 |
+| JOD | UZS | reference | 17004.09 |
+| JPY | UZS | reference | 76.3 |
+| KGS | UZS | reference | 137.82 |
+| KHR | UZS | reference | 2.97 |
+| KRW | UZS | reference | 9.05 |
+| KWD | UZS | reference | 39117.13 |
+| KZT | UZS | reference | 26.6 |
+| LAK | UZS | reference | 0.54 |
 | LBP | UZS | reference | 0.13 |
-| LYD | UZS | reference | 1869.75 |
-| MAD | UZS | reference | 1224.67 |
-| MDL | UZS | reference | 668.43 |
-| MMK | UZS | reference | 5.72 |
-| MNT | UZS | reference | 3.34 |
-| MXN | UZS | reference | 648.13 |
-| MYR | UZS | reference | 2942.23 |
-| NOK | UZS | reference | 1263.84 |
-| NZD | UZS | reference | 6731.33 |
-| OMR | UZS | reference | 31199.09 |
-| PHP | UZS | reference | 190.42 |
-| PKR | UZS | reference | 43.39 |
-| PLN | UZS | reference | 3080.7 |
-| QAR | UZS | reference | 3295.2 |
-| RON | UZS | reference | 2523.3 |
-| RSD | UZS | reference | 114.66 |
-| RUB | UZS | reference | 143.17 |
-| SAR | UZS | reference | 3200.8 |
-| SDG | UZS | reference | 20.01 |
-| SEK | UZS | reference | 1204.55 |
-| SGD | UZS | reference | 9362.89 |
+| LYD | UZS | reference | 1877.31 |
+| MAD | UZS | reference | 1239.82 |
+| MDL | UZS | reference | 672.01 |
+| MMK | UZS | reference | 5.74 |
+| MNT | UZS | reference | 3.35 |
+| MXN | UZS | reference | 655.2 |
+| MYR | UZS | reference | 2953.79 |
+| NOK | UZS | reference | 1277.64 |
+| NZD | UZS | reference | 6829.67 |
+| OMR | UZS | reference | 31314.03 |
+| PHP | UZS | reference | 191.42 |
+| PKR | UZS | reference | 43.55 |
+| PLN | UZS | reference | 3105.91 |
+| QAR | UZS | reference | 3307.34 |
+| RON | UZS | reference | 2543.71 |
+| RSD | UZS | reference | 115.63 |
+| RUB | UZS | reference | 144.16 |
+| SAR | UZS | reference | 3212.51 |
+| SDG | UZS | reference | 20.09 |
+| SEK | UZS | reference | 1217.8 |
+| SGD | UZS | reference | 9423.83 |
+
+</details>
 
 [Full table on the Central Bank of Uzbekistan rates page](https://allratestoday.com/central-bank-rates-api/cbu/) · Source: [Official rates published by CBU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbu/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -378,7 +381,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/cbu-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/cbu-exchange-rate)
 
 ## 📜 License
