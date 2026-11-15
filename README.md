@@ -31,75 +31,7 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-<details>
-<summary>Table as text: published 2026-11-14 by Central Bank of Uzbekistan — 74 rates, first 60 shown. Updated 2026-11-14.</summary>
-
-| Base | Quote | Type | Rate |
-| --- | --- | --- | ---: |
-| AED | UZS | reference | 3271.26 |
-| AFN | UZS | reference | 183.37 |
-| AMD | UZS | reference | 33.37 |
-| ARS | UZS | reference | 7.78 |
-| AUD | UZS | reference | 8164.97 |
-| AZN | UZS | reference | 7067.28 |
-| BDT | UZS | reference | 96.59 |
-| BHD | UZS | reference | 31851.46 |
-| BND | UZS | reference | 9329.38 |
-| BRL | UZS | reference | 2129.34 |
-| BYN | UZS | reference | 4010.27 |
-| CAD | UZS | reference | 8424.04 |
-| CHF | UZS | reference | 14338.67 |
-| CNY | UZS | reference | 1800.9 |
-| CUP | UZS | reference | 500.6 |
-| CZK | UZS | reference | 543.78 |
-| DKK | UZS | reference | 1776.43 |
-| DZD | UZS | reference | 87.79 |
-| EGP | UZS | reference | 224.9 |
-| EUR | UZS | reference | 13280.68 |
-| GBP | UZS | reference | 15899.82 |
-| GEL | UZS | reference | 4633.39 |
-| HKD | UZS | reference | 1531.25 |
-| HUF | UZS | reference | 36.34 |
-| IDR | UZS | reference | 0.66 |
-| ILS | UZS | reference | 3747.58 |
-| INR | UZS | reference | 127.48 |
-| IQD | UZS | reference | 7.93 |
-| IRR | UZS | reference | 0.006 |
-| ISK | UZS | reference | 97.37 |
-| JOD | UZS | reference | 16945.51 |
-| JPY | UZS | reference | 75.11 |
-| KGS | UZS | reference | 137.34 |
-| KHR | UZS | reference | 2.92 |
-| KRW | UZS | reference | 8.99 |
-| KWD | UZS | reference | 38931.85 |
-| KZT | UZS | reference | 26.97 |
-| LAK | UZS | reference | 0.53 |
-| LBP | UZS | reference | 0.13 |
-| LYD | UZS | reference | 1863.88 |
-| MAD | UZS | reference | 1210.06 |
-| MDL | UZS | reference | 661.4 |
-| MMK | UZS | reference | 5.72 |
-| MNT | UZS | reference | 3.33 |
-| MXN | UZS | reference | 647.39 |
-| MYR | UZS | reference | 2939.3 |
-| NOK | UZS | reference | 1257.84 |
-| NZD | UZS | reference | 6652.36 |
-| OMR | UZS | reference | 31206.16 |
-| PHP | UZS | reference | 188.32 |
-| PKR | UZS | reference | 43.45 |
-| PLN | UZS | reference | 3011.65 |
-| QAR | UZS | reference | 3296.12 |
-| RON | UZS | reference | 2482.31 |
-| RSD | UZS | reference | 112.89 |
-| RUB | UZS | reference | 146.19 |
-| SAR | UZS | reference | 3201.27 |
-| SDG | UZS | reference | 20.02 |
-| SEK | UZS | reference | 1196.42 |
-| SGD | UZS | reference | 9329.38 |
-
-</details>
-
-[Full table on the Central Bank of Uzbekistan rates page](https://allratestoday.com/central-bank-rates-api/cbu/) · Source: [Official rates published by CBU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbu/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+_The table is filled in by the daily workflow._
 <!-- daily-table:end -->
 
 ## 📦 Installation
