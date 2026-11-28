@@ -32,7 +32,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-27 by Central Bank of Uzbekistan — 71 rates, first 60 shown. Updated 2026-11-27.</summary>
+<summary>Table as text: published 2026-11-27 by Central Bank of Uzbekistan — 72 rates, first 60 shown. Updated 2026-11-28.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -63,6 +63,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | ILS | UZS | reference | 3589.47 |
 | INR | UZS | reference | 129.82 |
 | IQD | UZS | reference | 7.92 |
+| IRR | UZS | reference | 0.06 |
 | ISK | UZS | reference | 96.11 |
 | JOD | UZS | reference | 16928.21 |
 | JPY | UZS | reference | 75.34 |
@@ -95,7 +96,6 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | SEK | UZS | reference | 1175.63 |
 | SGD | UZS | reference | 9297.47 |
 | SYP | UZS | reference | 98.38 |
-| THB | UZS | reference | 352.28 |
 
 </details>
 
